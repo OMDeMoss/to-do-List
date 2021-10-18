@@ -1,6 +1,6 @@
 body {
-    background: #eee;
-    color: #444;
+    background:lightblue;
+    color: black;
     font-family: 'Helvetica', arial, sans-serif;
 }
 
@@ -17,7 +17,7 @@ body {
 input {
     border: none;
     display: block;
-    width: 98.4%;
+    width: 100%;
     line-height: 1.5;
     padding: 8px 0 8px 10px;
     border-bottom: 1px solid #cfcbcc;
@@ -30,7 +30,7 @@ h1,h2 {
     line-height: 1;
 }
 h2 {
-    color: gray;
+    color: black;
 }
 
 ul {
