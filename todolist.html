@@ -8,25 +8,22 @@
 
     <link rel="stylesheet" href="todostyles.css">
 
+    <script type="text/javascript" src="todoOOP.js" defer></script>
+	<script type="text/javascript" src="todo.js" defer></script>
+
 </head>
 <body>
     
-    <div id="myDIV" class="header">
-        <h2>To-Do List</h2>
-        <input type="text" id="myInput" placeholder="Add To-Do Item...">
-        <span onclick="newElement()" class="addBtn">Add</span>
-    </div>
+    <h1>Olivia To-Do List</h1>
+    <h2>Week 1</h2>
     
-    <ul id="myUL">
-        <li>Feed Dogs</li>
-        <li class="checked">Go to Work</li>
-        <li>Go to Class</li>
-        <li>Eat</li>
-        <li>Freelance Work </li>
-        <li>Sleep</li>
-    </ul>
-
-
+    <div class="container">
+    <form  action="#">
+        <input type="text" name="item" id="item" placeholder="Add New" />
+    </form>  
+    <ul id="list"></ul>
+    
+    </div>
 
 </body>
 </html>
